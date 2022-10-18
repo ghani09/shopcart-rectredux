@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: bisque;
+    box-sizing: border-box;
+}
+.shop{
+    width:80%;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1px dashed yellow;
+    border-radius: 10px;
+    background: rgba(8, 2, 17, 0.6);
+    margin:0 auto;
+}
+.item{
+    width: 30%;
+    height:200px;
+    background: rgba(192, 180, 209, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.item h2{
+       color:white;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 2em;
+}
+.item p{
+
+    color:aqua;
+    font-family: monospace;
+    font-size: 2em;
+
+}
+.item button{
+    background-color: green;
+
+    width:30%;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-family: monospace;
+    font-size:18px;
+}
+
+
+  table{
+    border:1px solid black;  
+    border-collapse: collapse;
+  }  
+
+
+ thead th {
+    border:1px solid black;   
+  
+ }
+ tbody td{
+    border:1px solid black;  
+    border-collapse: collapse;
+    row-gap: 0; 
+ }
+ tbody tr{
+    border-bottom: 1px solid black;
+ }
